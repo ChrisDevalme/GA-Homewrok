@@ -1,0 +1,17 @@
+body{
+  font-size: 1.3rem;
+}
+
+.ans{
+    color: green;
+    display: block;
+    margin-top: .8rem;
+    font-weight: bold;
+  }
+  li{
+    padding: 10px;
+  }
+  
+  .ctr {
+    text-align: center;
+  }

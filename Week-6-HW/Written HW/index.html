@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css"; rel="stylesheet">
+</head>
+<body>
+    <h1 class="ctr">Chris Devalme</h1>
+    <h3 class="ctr">SEIR-Liberty: Week 7</h3>
+      <ol>
+        <li>
+          <span>What is the Document Object Model (DOM)?</span>
+          <span class="ans">The Document Object Model is a cross-platform and language-independent interface that treats an HTML or XML document as a tree structure wherein each node is an object representing a part of the document. The DOM represents a document with a logical tree.</span>
+        </li>
+
+        <li>
+          <span>What is the difference between HTML and the DOM?</span>
+          <span class="ans">DOM is a model of a document with an associated API for manipulating it. HTML is a markup language that lets you represent a certain kind of DOM in text.</span>
+        </li>
+
+        <li>
+          <span>What are the main types of DOM nodes?</span>
+          <span class="ans">Elememt, Attribute, Text, CDATASection, EntityReference, Entity, Processing Instructio, Comment, Document, DocumentType, DocumentFragment, Notation</span>
+        </li>
+
+        <li>
+          <span>How can you traverse the DOM tree and access specific elements or nodes?</span>
+          <span class="ans">By using the parentNode property. while (node = node. parentNode) DoSomething(node); This will traverse the DOM tree until it reaches the root element, when the parentNode property becomes null.</span>
+        </li>
+
+        <li>
+          <span>What are some common methods for adding, modifying, or deleting elements in the DOM?</span>
+          <span class="ans">The methods appendChild() and insertBefore() are used to add items to the beginning, middle, or end of a parent element, and replaceChild() is used to replace an old node with a new node. Use element.remove() to remove an element from the DOM</span>
+        </li>
+
+        <li>
+          <span>What are events and event listeners in the context of the DOM?</span>
+          <span class="ans">Events are a signal that something has occurred, or is occurring, and can be triggered by user interactions or by the browser. An event listener is a function in JavaScript that waits for an event to occur then responds to it. </span>
+        </li>
+
+        <li>
+          <span>What is the difference between a "live" NodeList and a "static" NodeList? When would you use each?
+  </span>
+          <span class="ans">An HTMLCollection is always a live collection. Example: If you add a (li) element to a list in the DOM, the list in the HTMLCollection will also change. A NodeList is most often a static collection. Example: If you add a (li) element to a list in the DOM, the list in NodeList will not change.</span>
+        </li>
+
+        <li>
+          <span>What is event delegation, and why is it useful when working with the DOM?</span>
+          <span class="ans">Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated. It allows us to attach a single event listener for elements that exist now or in the future.</span>
+        </li>
+
+        <li>
+          <span>How can you use the DOM to apply CSS styles to elements dynamically?</span>
+          <span class="ans">The style object has attributes that correspond to the different CSS properties we set. For example, style.color returns the colour that element has set on it. By calling element.style.color = "red"; you can apply the style change dynamically. </span>
+        </li>
+        
+        <li>
+          <span>What are some performance considerations and best practices when working with the DOM?</span>
+          <span class="ans">
+            <ol>
+              <li>
+                Use CSS Classes Instead of Inline Styles
+              </li> 
+              <li>
+                Cache Selectors
+              </li>
+              <li>
+                Use Event Delegation
+              </li>
+              <li>
+                Avoid Nesting Elements in Selectors
+              </li>     
+              <li>
+                Limit the Number of DOM Manipulations
+              </li> 
+            </ol>
+          </span>
+        </li>
+      </ol>
+</body>
+</html>
